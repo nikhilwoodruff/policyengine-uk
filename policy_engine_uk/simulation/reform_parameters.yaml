@@ -75,6 +75,9 @@ reforms:
           description: Abolish the Savings Allowance.
           type: abolish
           summary: Abolish the Savings Allowance
+          reference:
+            - title: Income Tax Act 2007 s. 12A
+              href: https://www.legislation.gov.uk/ukpga/2007/3/section/12A
         tests:
           - decreases_net_income: true
     abolish_dividend_allowance:
@@ -88,6 +91,9 @@ reforms:
           description: Abolish the Dividend Allowance.
           type: abolish
           summary: Abolish the Dividend Allowance
+          reference:
+            - title: Income Tax Act 2007 s. 13A
+              href: https://www.legislation.gov.uk/ukpga/2007/3/section/13A
         tests:
           - decreases_net_income: true
     abolish_income_tax:
@@ -101,6 +107,9 @@ reforms:
           description: Abolish Income Tax entirely.
           type: abolish
           summary: Abolish Income Tax
+          reference:
+            - title: Income Tax Act 2007
+              href: https://www.legislation.gov.uk/ukpga/2007/3
         tests:
           - increases_net_income: true
     abolish_NI:
@@ -114,6 +123,9 @@ reforms:
           description: Abolish National Insurance entirely.
           type: abolish
           summary: Abolish National Insurance
+          reference:
+            - title: Social Security Contributions and Benefits Act 1992
+              href: https://www.legislation.gov.uk/ukpga/1992/4
         tests:
           - increases_net_income: true
     abolish_UC:
@@ -127,6 +139,11 @@ reforms:
           description: Abolish Universal Credit.
           type: abolish
           summary: Abolish Universal Credit
+          reference:
+            - title: Welfare Reform Act 2012
+              href: https://www.legislation.gov.uk/ukpga/2012/5
+            - title: Universal Credit Regulations 2013
+              href: https://www.legislation.gov.uk/uksi/2013/376
         tests:
           - decreases_net_income: true
     abolish_CB:
@@ -140,6 +157,9 @@ reforms:
           description: Abolish the Child Benefit.
           type: abolish
           summary: Abolish the Child Benefit
+          reference:
+            - title: Social Security Contributions and Benefits Act 1992 Part IX
+              href: https://www.legislation.gov.uk/ukpga/1992/4/part/IX
         tests:
           - decreases_net_income: true
     abolish_HB:
@@ -153,6 +173,11 @@ reforms:
           description: Abolish Housing Benefit.
           type: abolish
           summary: Abolish Housing Benefit
+          reference:
+            - title: Social Security Contributions and Benefits Act 1992 Part VII
+              href: https://www.legislation.gov.uk/ukpga/1992/4/part/VII
+            - title: Housing Benefit Regulations 2006
+              href: https://www.legislation.gov.uk/uksi/2006/213
         tests:
           - decreases_net_income: true
     abolish_CTC:
@@ -166,6 +191,9 @@ reforms:
           description: Abolish the Child Tax Credit. This does not trigger migration to Universal Credit.
           type: abolish
           summary: Abolish the Child Tax Credit
+          reference:
+            - title: Tax Credits Act 2002
+              href: https://www.legislation.gov.uk/ukpga/2002/21
         tests:
           - decreases_net_income: true
     abolish_WTC:
@@ -179,6 +207,9 @@ reforms:
           description: Abolish Working Tax Credit.This does not trigger migration to Universal Credit.
           type: abolish
           summary: Abolish Working Tax Credit
+          reference:
+            - title: Tax Credits Act 2002
+              href: https://www.legislation.gov.uk/ukpga/2002/21
         tests:
           - decreases_net_income: true
     abolish_SP:
@@ -192,6 +223,11 @@ reforms:
           description: Abolish the State Pension.
           type: abolish
           summary: Abolish the State Pension
+          reference:
+            - title: Pensions Act 2014
+              href: https://www.legislation.gov.uk/ukpga/2014/19
+            - title: Social Security Contributions and Benefits Act 1992 Part II
+              href: https://www.legislation.gov.uk/ukpga/1992/4/part/II
         tests:
           - decreases_net_income: true
     abolish_PC:
@@ -205,6 +241,9 @@ reforms:
           description: Abolish Pension Credit.
           type: abolish
           summary: Abolish Pension Credit
+          reference:
+            - title: State Pension Credit Act 2002
+              href: https://www.legislation.gov.uk/ukpga/2002/16
         tests:
           - decreases_net_income: true
     abolish_IS:
@@ -218,6 +257,11 @@ reforms:
           description: Abolish Income Support.
           type: abolish
           summary: Abolish Income Support
+          reference:
+            - title: Social Security Contributions and Benefits Act 1992 Part VII
+              href: https://www.legislation.gov.uk/ukpga/1992/4/part/VII
+            - title: Income Support (General) Regulations 1987
+              href: https://www.legislation.gov.uk/uksi/1987/1967
         tests:
           - decreases_net_income: true
     abolish_JSA_income:
@@ -231,6 +275,11 @@ reforms:
           description: Abolish income-based JSA.
           type: abolish
           summary: Abolish income-based JSA
+          reference:
+            - title: Jobseekers Act 1995
+              href: https://www.legislation.gov.uk/ukpga/1995/18
+            - title: Jobseeker's Allowance Regulations 1996
+              href: https://www.legislation.gov.uk/uksi/1996/207
         tests:
           - decreases_net_income: true
     abolish_UC_standard_allowance:
@@ -244,6 +293,9 @@ reforms:
           description: Abolish the Standard Allowance component of Universal Credit
           type: abolish
           summary: Abolish the UC Standard Allowance
+          reference:
+            - title: Universal Credit Regulations 2013 reg. 36
+              href: https://www.legislation.gov.uk/uksi/2013/376/regulation/36
         tests:
           - decreases_net_income: true
     abolish_UC_child_element:
@@ -257,6 +309,9 @@ reforms:
           description: Abolish the child element of Universal Credit
           type: abolish
           summary: Abolish the UC child element
+          reference:
+            - title: Universal Credit Regulations 2013 reg. 24
+              href: https://www.legislation.gov.uk/uksi/2013/376/regulation/24
         tests:
           - decreases_net_income: true
     abolish_UC_disability_element:
@@ -270,6 +325,9 @@ reforms:
           description: Abolish the disability element of Universal Credit
           type: abolish
           summary: Abolish the UC disability element
+          reference:
+            - title: Universal Credit Regulations 2013 reg. 27
+              href: https://www.legislation.gov.uk/uksi/2013/376/regulation/27
         tests:
           - decreases_net_income: true
     abolish_UC_carer_element:
@@ -283,5 +341,8 @@ reforms:
           description: Abolish the carer element of Universal Credit
           type: abolish
           summary: Abolish the UC carer element
+          reference:
+            - title: Universal Credit Regulations 2013 reg. 29
+              href: https://www.legislation.gov.uk/uksi/2013/376/regulation/29
         tests:
           - decreases_net_income: true
